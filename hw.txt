@@ -1,0 +1,16 @@
+  220  git init
+  221  git add README.md
+  222  git commit -m "add README.md"
+  223  git branch -M main
+  224  git remote add origin https://github.com/xeniaBch/Homework_21-06.git
+  225  git push -u origin main
+  226  touch 1.txt 2.txt 3.txt 4.txt 5.txt
+  227  git add .
+  228  git commit -m "adding files"
+  229  git push -u origin main
+  230  rm 2.txt 4.txt 
+  231  git add .
+  232  git commit -m "deleting files"
+  233  git push -u origin main
+  234  history
+  235  history | tail -16 >> hw.txt
